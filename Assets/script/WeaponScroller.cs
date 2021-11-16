@@ -30,7 +30,7 @@ public class WeaponScroller : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
 
     //JumpStrenght
-    [Header("Object bij de voeten van de player om de grond te checken")]
+    [Header("Jump variabelen")]
     [Range(0, 20)]
     private float maxJumpStrenght = 20;
 
